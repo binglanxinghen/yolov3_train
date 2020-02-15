@@ -1,7 +1,7 @@
-# yolov3_train
-### 第一条，任何人不得把checkpoint里面的模型上传到github上！！！
-### 第一条，任何人不得把checkpoint里面的模型上传到github上！！！
-### 第一条，任何人不得把checkpoint里面的模型上传到github上！！！
+yolov3_train
+第一条，任何人不得把checkpoint里面的模型上传到github上！！！
+第一条，任何人不得把checkpoint里面的模型上传到github上！！！
+第一条，任何人不得把checkpoint里面的模型上传到github上！！！
 
 该代码是训练的代码，可以任意拷贝到任何机器，只需要对应机器有安装git，git clone 这个仓库即可，运行代码需要额外的python包，需要pip install如下：
 
@@ -28,4 +28,4 @@
 4.提交到暂存仓后可以git status看一下刚才提交了哪些文件，检测一下时候提交了模型！！！，不要提交模型。
 5.使用git commit，是讲暂存仓库提交到本地仓，这时候会进入到vim模式让你编辑这次代码改动的log，比如这次做了一个新功能，那么这个信息记录到log里面，保存退出即可，:wq（vim的保存退出）。
 6.最后提交到远程仓库，git push -u origin master。
-8.把github账号密码一填即可。
+8.把github账号密码一填即可。 
