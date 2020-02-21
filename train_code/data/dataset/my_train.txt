@@ -1,0 +1,2 @@
+/home/ubuntu/yolov3_train/train_code/scripts/../../train_data/train/JPEGImages/bluebell0001.jpg 66,60,295,252,0
+/home/ubuntu/yolov3_train/train_code/scripts/../../train_data/train/JPEGImages/bluebell0002.jpg 327,73,467,231,0 269,141,364,287,0 210,143,291,269,0 159,242,274,386,0 482,206,560,363,0 375,161,520,315,0
