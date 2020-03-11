@@ -21,9 +21,9 @@
 ## 训练步骤(**重要)
 ### 数据准备
 简介：训练和验证用的数据集放置于目录train_data里面，其中
-训练集目录是train_data/train,验证集目录train_data/test，目录下都有Annotations,ImageSets,JPEGImages,SegmentationClass,SegmentationObject，其中只需要关注Annotations,ImageSets,JPEGImages这三个目录，其中ImageSets目录的Main的trainval.txt和test.txt里面写着是训练图片/xml去掉后缀jpg的名字，程序只会训练定义在这两个文件中数据。  
-1.把xml数据放置于Annotations,jpg图片放置于JPEGImages。  
-2.运行脚本pre_data.py第一部放置的训练集写在trainval.txt或者test.txt里面.脚本命令为：  
+训练集目录是train_data/train,验证集目录train_data/test，目录下都有Annotations,ImageSets,JPEGImages,SegmentationClass,SegmentationObject，其中只需要关注Annotations,ImageSets,JPEGImages这三个目录，其中ImageSets目录的Main的trainval.txt和test.txt里面写着是训练图片/xml去掉后缀的名字，程序只会训练定义在这两个文件中数据。  
+1.把xml数据放置于Annotations目录,jpg图片放置于JPEGImages目录。  
+2.运行脚本pre_data.py第一步放置的训练集写在trainval.txt或者test.txt里面.脚本命令为：  
 python pre_data.py -t true -e true -l  
 具体的参数意思python pre_data.py -h有描述。  
 3.最后一步将此次训练集的类别名称写在my.names里面，比如此次训练集包含车，人，鸟，就依次一行一个类别写下cat，human，bird  
@@ -31,7 +31,7 @@ python pre_data.py -t true -e true -l
 1.进入train_code目录里面，运行python scripts/voc_annotation.py将数据集转换成yolov3的格式  
 2.运行python train.py开始训练，等待训练结束  
 3.训练结束运行python evaluate.py开始验证
-4.进入mAP目录，cd mAP
+4.进入mAP目录，cd mAP  
 5.python main.py -na获取验证集map的值
 ## 上传到github
 本地代码改完如果需要上传到github上，需要检查一下第一条规则，不要把checkpoint里面的目录上次到github，因为模型太大了。 不熟悉git 命令需要去学，或者linux的vim编辑命令不熟，需要学习。  
