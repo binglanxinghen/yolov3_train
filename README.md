@@ -30,7 +30,7 @@ python pre_data.py -t true -e true -l
 ### 开始训练
 1.进入train_code目录里面，运行python scripts/voc_annotation.py将数据集转换成yolov3的格式  
 2.运行python train.py开始训练，等待训练结束  
-3.训练结束运行python evaluate.py开始验证
+3.训练结束运行python evaluate.py开始验证  
 4.进入mAP目录，cd mAP  
 5.python main.py -na获取验证集map的值
 ## 上传到github
