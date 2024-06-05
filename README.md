@@ -1,10 +1,5 @@
 # yolov3_train   
-## 规定：  
-第一条，任何人不得把checkpoint里面的模型上传到github上！！！
 
-第一条，任何人不得把checkpoint里面的模型上传到github上！！！
-
-第一条，任何人不得把checkpoint里面的模型上传到github上！！！  
 ## 简介
 该代码是训练的代码，可以任意拷贝到任何机器，只需要对应机器有安装git，git clone 这个仓库即可，运行代码需要额外的python包，需要pip install如下：
 
